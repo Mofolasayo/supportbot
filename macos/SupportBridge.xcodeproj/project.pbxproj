@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001 /* SupportBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101 /* SupportBridgeApp.swift */; };
+		002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102 /* ContentView.swift */; };
+		003 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103 /* DesignSystem.swift */; };
+		004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104 /* Models.swift */; };
+		005 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105 /* LoginView.swift */; };
+		006 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106 /* SidebarView.swift */; };
+		007 /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107 /* ConversationListView.swift */; };
+		008 /* ChatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108 /* ChatDetailView.swift */; };
+		009 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109 /* MessageBubble.swift */; };
+		010 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110 /* MessageInputView.swift */; };
+		011 /* AISuggestionsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111 /* AISuggestionsPanel.swift */; };
+		012 /* EscalationQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112 /* EscalationQueueView.swift */; };
+		013 /* AnalyticsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113 /* AnalyticsDashboardView.swift */; };
+		014 /* TeamInboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114 /* TeamInboxView.swift */; };
+		015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115 /* Assets.xcassets */; };
+		016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117 /* SettingsView.swift */; };
+		017 /* KnowledgeBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118 /* KnowledgeBaseView.swift */; };
+		018 /* QuickTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119 /* QuickTemplates.swift */; };
+		019 /* CustomerProfilePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120 /* CustomerProfilePopup.swift */; };
+		020 /* TeamChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121 /* TeamChatView.swift */; };
+		021 /* BroadcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122 /* BroadcastView.swift */; };
+		022 /* AgentQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123 /* AgentQueueView.swift */; };
+		023 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124 /* ContactsView.swift */; };
+		024 /* MessageComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125 /* MessageComponents.swift */; };
+		025 /* EmojiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126 /* EmojiPicker.swift */; };
+		026 /* MediaGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127 /* MediaGalleryView.swift */; };
+		027 /* MessageSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128 /* MessageSearchView.swift */; };
+		028 /* ForwardMessageSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129 /* ForwardMessageSheet.swift */; };
+		029 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130 /* AddContactView.swift */; };
+		BBBBBBBB1111111100000001 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAA1111111100000001 /* APIClient.swift */; };
+		BBBBBBBB1111111100000002 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAA1111111100000002 /* AuthService.swift */; };
+		BBBBBBBB1111111100000003 /* AuthFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAA1111111100000003 /* AuthFlowView.swift */; };
+		BBBBBBBB1111111100000004 /* RealtimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAA1111111100000004 /* RealtimeService.swift */; };
+		25BDA9A753492872F5BE6CBB /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42552BD06909158470C85D8D /* AudioRecorder.swift */; };
+		9F3B0ED2AFC8EA54CC8A8C4C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151164F0259CAF9404AF00D9 /* ImageCache.swift */; };
+		D0F1128B052611FE2FC87A7E /* LinkPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CDA193250223FAECCC9352 /* LinkPreviewService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100 /* SupportBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupportBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		101 /* SupportBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportBridgeApp.swift; sourceTree = "<group>"; };
+		102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		103 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		104 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		105 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		106 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		107 /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
+		108 /* ChatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailView.swift; sourceTree = "<group>"; };
+		109 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		110 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		111 /* AISuggestionsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISuggestionsPanel.swift; sourceTree = "<group>"; };
+		112 /* EscalationQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscalationQueueView.swift; sourceTree = "<group>"; };
+		113 /* AnalyticsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsDashboardView.swift; sourceTree = "<group>"; };
+		114 /* TeamInboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInboxView.swift; sourceTree = "<group>"; };
+		115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116 /* SupportBridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SupportBridge.entitlements; sourceTree = "<group>"; };
+		117 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		118 /* KnowledgeBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeBaseView.swift; sourceTree = "<group>"; };
+		119 /* QuickTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTemplates.swift; sourceTree = "<group>"; };
+		120 /* CustomerProfilePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfilePopup.swift; sourceTree = "<group>"; };
+		121 /* TeamChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamChatView.swift; sourceTree = "<group>"; };
+		122 /* BroadcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastView.swift; sourceTree = "<group>"; };
+		123 /* AgentQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentQueueView.swift; sourceTree = "<group>"; };
+		124 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		125 /* MessageComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComponents.swift; sourceTree = "<group>"; };
+		126 /* EmojiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPicker.swift; sourceTree = "<group>"; };
+		127 /* MediaGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaGalleryView.swift; sourceTree = "<group>"; };
+		128 /* MessageSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSearchView.swift; sourceTree = "<group>"; };
+		129 /* ForwardMessageSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardMessageSheet.swift; sourceTree = "<group>"; };
+		130 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		AAAAAAAA1111111100000001 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		AAAAAAAA1111111100000002 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		AAAAAAAA1111111100000003 /* AuthFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowView.swift; sourceTree = "<group>"; };
+		AAAAAAAA1111111100000004 /* RealtimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeService.swift; sourceTree = "<group>"; };
+		151164F0259CAF9404AF00D9 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		42552BD06909158470C85D8D /* AudioRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		B0CDA193250223FAECCC9352 /* LinkPreviewService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinkPreviewService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EBFB5545A5C7CC217157F7 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Archive;
+			sourceTree = "<group>";
+		};
+		2BED1FCD4A00FDC877FFC5C3 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		300 = {
+			isa = PBXGroup;
+			children = (
+				301 /* SupportBridge */,
+				302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		301 /* SupportBridge */ = {
+			isa = PBXGroup;
+			children = (
+				303 /* App */,
+				304 /* Features */,
+				305 /* Models */,
+				CCCCCCCC1111111100000001 /* Services */,
+				115 /* Assets.xcassets */,
+				116 /* SupportBridge.entitlements */,
+			);
+			path = SupportBridge;
+			sourceTree = "<group>";
+		};
+		302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100 /* SupportBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				101 /* SupportBridgeApp.swift */,
+				102 /* ContentView.swift */,
+				103 /* DesignSystem.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		303CA4B7484BFBE204FCB0EA /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		304 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				306 /* Auth */,
+				307 /* Chat */,
+				308 /* Escalations */,
+				315 /* Contacts */,
+				309 /* Analytics */,
+				310 /* Team */,
+				311 /* Settings */,
+				312 /* KnowledgeBase */,
+				313 /* Broadcast */,
+				314 /* Queue */,
+				303CA4B7484BFBE204FCB0EA /* Tasks */,
+				AAA88C86A7E1E4C0E94B39A0 /* Dashboard */,
+				2BED1FCD4A00FDC877FFC5C3 /* Notifications */,
+				17EBFB5545A5C7CC217157F7 /* Archive */,
+				99640A1EE78F868C87323E40 /* Templates */,
+				4BB982548CCC60E3F20D3CE0 /* Conversations */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		305 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				104 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		306 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAA1111111100000003 /* AuthFlowView.swift */,
+				105 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		307 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				106 /* SidebarView.swift */,
+				107 /* ConversationListView.swift */,
+				108 /* ChatDetailView.swift */,
+				109 /* MessageBubble.swift */,
+				110 /* MessageInputView.swift */,
+				111 /* AISuggestionsPanel.swift */,
+				119 /* QuickTemplates.swift */,
+				120 /* CustomerProfilePopup.swift */,
+				125 /* MessageComponents.swift */,
+				126 /* EmojiPicker.swift */,
+				127 /* MediaGalleryView.swift */,
+				128 /* MessageSearchView.swift */,
+				129 /* ForwardMessageSheet.swift */,
+				42552BD06909158470C85D8D /* AudioRecorder.swift */,
+				B0CDA193250223FAECCC9352 /* LinkPreviewService.swift */,
+				151164F0259CAF9404AF00D9 /* ImageCache.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		308 /* Escalations */ = {
+			isa = PBXGroup;
+			children = (
+				112 /* EscalationQueueView.swift */,
+			);
+			path = Escalations;
+			sourceTree = "<group>";
+		};
+		309 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				113 /* AnalyticsDashboardView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		310 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				114 /* TeamInboxView.swift */,
+				121 /* TeamChatView.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		311 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				117 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		312 /* KnowledgeBase */ = {
+			isa = PBXGroup;
+			children = (
+				118 /* KnowledgeBaseView.swift */,
+			);
+			path = KnowledgeBase;
+			sourceTree = "<group>";
+		};
+		313 /* Broadcast */ = {
+			isa = PBXGroup;
+			children = (
+				122 /* BroadcastView.swift */,
+			);
+			path = Broadcast;
+			sourceTree = "<group>";
+		};
+		314 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				123 /* AgentQueueView.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		315 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				124 /* ContactsView.swift */,
+				130 /* AddContactView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		CCCCCCCC1111111100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAA1111111100000001 /* APIClient.swift */,
+				AAAAAAAA1111111100000002 /* AuthService.swift */,
+				AAAAAAAA1111111100000004 /* RealtimeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4BB982548CCC60E3F20D3CE0 /* Conversations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Conversations;
+			sourceTree = "<group>";
+		};
+		99640A1EE78F868C87323E40 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+		AAA88C86A7E1E4C0E94B39A0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400 /* SupportBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500 /* Build configuration list for PBXNativeTarget "SupportBridge" */;
+			buildPhases = (
+				401 /* Sources */,
+				200 /* Frameworks */,
+				402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SupportBridge;
+			productName = SupportBridge;
+			productReference = 100 /* SupportBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					400 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 601 /* Build configuration list for PBXProject "SupportBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300;
+			productRefGroup = 302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400 /* SupportBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001 /* SupportBridgeApp.swift in Sources */,
+				002 /* ContentView.swift in Sources */,
+				003 /* DesignSystem.swift in Sources */,
+				004 /* Models.swift in Sources */,
+				005 /* LoginView.swift in Sources */,
+				006 /* SidebarView.swift in Sources */,
+				007 /* ConversationListView.swift in Sources */,
+				008 /* ChatDetailView.swift in Sources */,
+				009 /* MessageBubble.swift in Sources */,
+				010 /* MessageInputView.swift in Sources */,
+				011 /* AISuggestionsPanel.swift in Sources */,
+				012 /* EscalationQueueView.swift in Sources */,
+				013 /* AnalyticsDashboardView.swift in Sources */,
+				014 /* TeamInboxView.swift in Sources */,
+				016 /* SettingsView.swift in Sources */,
+				017 /* KnowledgeBaseView.swift in Sources */,
+				018 /* QuickTemplates.swift in Sources */,
+				019 /* CustomerProfilePopup.swift in Sources */,
+				020 /* TeamChatView.swift in Sources */,
+				021 /* BroadcastView.swift in Sources */,
+				022 /* AgentQueueView.swift in Sources */,
+				023 /* ContactsView.swift in Sources */,
+				024 /* MessageComponents.swift in Sources */,
+				025 /* EmojiPicker.swift in Sources */,
+				026 /* MediaGalleryView.swift in Sources */,
+				027 /* MessageSearchView.swift in Sources */,
+				028 /* ForwardMessageSheet.swift in Sources */,
+				029 /* AddContactView.swift in Sources */,
+				BBBBBBBB1111111100000001 /* APIClient.swift in Sources */,
+				BBBBBBBB1111111100000002 /* AuthService.swift in Sources */,
+				BBBBBBBB1111111100000003 /* AuthFlowView.swift in Sources */,
+				BBBBBBBB1111111100000004 /* RealtimeService.swift in Sources */,
+				25BDA9A753492872F5BE6CBB /* AudioRecorder.swift in Sources */,
+				D0F1128B052611FE2FC87A7E /* LinkPreviewService.swift in Sources */,
+				9F3B0ED2AFC8EA54CC8A8C4C /* ImageCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SupportBridge/SupportBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Schoolable. All rights reserved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Voice messages";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schoolable.SupportBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SupportBridge/SupportBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Schoolable. All rights reserved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Voice messages";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schoolable.SupportBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		500 /* Build configuration list for PBXNativeTarget "SupportBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702 /* Debug */,
+				703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601 /* Build configuration list for PBXProject "SupportBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700 /* Debug */,
+				701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 600 /* Project object */;
+}
